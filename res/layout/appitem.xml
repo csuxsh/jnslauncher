@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- 
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="2dip"
+    android:paddingRight="20dip"
+    android:paddingTop="20dip"
+    android:paddingBottom="20dip"
+    android:drawablePadding="0dip"
+	android:scaleType="fitXY"
+	
+    android:textSize="13dip"
+    android:maxLines="2"
+    android:ellipsize="marquee"
+    android:fadingEdge="horizontal"
+    android:layout_gravity="center_vertical|center_horizontal"     
+    android:gravity="top|center_horizontal" 
+  --> 
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:drawablePadding="0dip"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="top|center_horizontal"
+        android:maxLines="2"
+        android:paddingBottom="2dip"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:paddingTop="15dip"
+        android:layout_gravity="center_vertical|center_horizontal"     
+        android:textColor="@color/bright_text_dark_focused"
+        android:textSize="26dip" />

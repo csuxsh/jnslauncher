@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DrawAllocation">
+        <ignore path="src\com\jslauncher\launcher\DragView.java" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src\com\jslauncher\launcher\Launcher.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore" />
+    <issue id="SuspiciousImport">
+        <ignore path="src\com\jslauncher\steven\CheckUpataThread.java" />
+    </issue>
+    <issue id="WorldReadableFiles" severity="ignore" />
+    <issue id="WorldWriteableFiles" severity="ignore" />
+</lint>
